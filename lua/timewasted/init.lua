@@ -10,7 +10,7 @@ local function getStatusLine()
 	return "Time wasted : " .. timeString
 end
 
-vim.notify("hey")
+print("hey")
 
 return {
 	getStatusLine = getStatusLine,
