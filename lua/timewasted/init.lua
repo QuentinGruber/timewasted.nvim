@@ -10,8 +10,6 @@ local function getStatusLine()
 	return "Time wasted : " .. timeString
 end
 
-print("hey")
-
 return {
 	getStatusLine = getStatusLine,
 }
